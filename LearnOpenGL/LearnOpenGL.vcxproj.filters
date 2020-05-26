@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{89c44dda-aa6f-43c8-9600-1d39006e8bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\glad">
+      <UniqueIdentifier>{699710be-5299-4bb4-9d9f-d4ec2675f934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\glad\include">
+      <UniqueIdentifier>{ec4e447e-c63d-4c15-a955-9c1e40f9bb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\glad\src">
+      <UniqueIdentifier>{3744db4a-f907-4180-b877-3b874b25b1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\glad\include\glad">
+      <UniqueIdentifier>{aaa0d9f8-c8fe-4c81-8c96-3b4e1997af8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\glad\include\KHR">
+      <UniqueIdentifier>{28d79b26-eca2-4c39-9845-15667e7a18a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>_Libs\glad\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\glfw-3.3.2.bin.WIN64\include\glad\include\glad\glad.h">
+      <Filter>_Libs\glad\include\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glfw-3.3.2.bin.WIN64\include\glad\include\KHR\khrplatform.h">
+      <Filter>_Libs\glad\include\KHR</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
