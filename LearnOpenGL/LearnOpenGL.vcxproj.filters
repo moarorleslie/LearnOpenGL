@@ -26,6 +26,9 @@
     <Filter Include="Source Files\Shader">
       <UniqueIdentifier>{f4385631-cd7f-428c-915f-74dca860bb89}</UniqueIdentifier>
     </Filter>
+    <Filter Include="_Libs\stb">
+      <UniqueIdentifier>{9ab25424-dbaf-47b8-92e8-7c8ef0fe3932}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,12 +51,21 @@
     <ClInclude Include="Shader.h">
       <Filter>Source Files\Shader</Filter>
     </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>_Libs\stb</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="example.fs.glsl">
       <Filter>Source Files\Shader</Filter>
     </None>
     <None Include="example.vs.glsl">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+    <None Include="colorTexture.fs.glsl">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+    <None Include="colorTexture.vs.glsl">
       <Filter>Source Files\Shader</Filter>
     </None>
   </ItemGroup>

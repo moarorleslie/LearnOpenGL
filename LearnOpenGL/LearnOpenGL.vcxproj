@@ -150,8 +150,11 @@
     <ClInclude Include="..\..\glfw-3.3.2.bin.WIN64\include\glad\include\glad\glad.h" />
     <ClInclude Include="..\..\glfw-3.3.2.bin.WIN64\include\glad\include\KHR\khrplatform.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="colorTexture.fs.glsl" />
+    <None Include="colorTexture.vs.glsl" />
     <None Include="example.fs.glsl" />
     <None Include="example.vs.glsl" />
   </ItemGroup>
