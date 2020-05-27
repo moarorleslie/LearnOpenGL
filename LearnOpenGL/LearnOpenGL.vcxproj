@@ -144,10 +144,16 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\glfw-3.3.2.bin.WIN64\include\glad\include\glad\glad.h" />
     <ClInclude Include="..\..\glfw-3.3.2.bin.WIN64\include\glad\include\KHR\khrplatform.h" />
+    <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="example.fs.glsl" />
+    <None Include="example.vs.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

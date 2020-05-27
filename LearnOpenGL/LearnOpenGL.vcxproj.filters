@@ -23,6 +23,9 @@
     <Filter Include="_Libs\glad\include\KHR">
       <UniqueIdentifier>{28d79b26-eca2-4c39-9845-15667e7a18a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{f4385631-cd7f-428c-915f-74dca860bb89}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -30,6 +33,9 @@
     </ClCompile>
     <ClCompile Include="glad.c">
       <Filter>_Libs\glad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Shader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -39,5 +45,16 @@
     <ClInclude Include="..\..\glfw-3.3.2.bin.WIN64\include\glad\include\KHR\khrplatform.h">
       <Filter>_Libs\glad\include\KHR</Filter>
     </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="example.fs.glsl">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+    <None Include="example.vs.glsl">
+      <Filter>Source Files\Shader</Filter>
+    </None>
   </ItemGroup>
 </Project>
