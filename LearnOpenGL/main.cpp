@@ -1,3 +1,5 @@
+
+
 #define STB_IMAGE_IMPLEMENTATION
 #include <glad/glad.h>
 #include <glfw3.h>
@@ -6,6 +8,7 @@
 
 #include <iostream>
 
+#define UNUSED_VAR(x) (void)x
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
@@ -193,6 +196,7 @@ void processInput(GLFWwindow* window)
 // ---------------------------------------------------------------------------------------------
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
+    UNUSED_VAR(window);
     // make sure the viewport matches the new window dimensions; note that width and 
     // height will be significantly larger than specified on retina displays.
     glViewport(0, 0, width, height);

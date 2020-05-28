@@ -1,3 +1,10 @@
+#pragma warning( disable : 6011 ) //dereferencing null ptr
+#pragma warning( disable : 6262 )
+#pragma warning( disable : 6308 )
+#pragma warning( disable : 6385 ) //reading invalid data
+#pragma warning( disable : 26451 ) //arithmetic overflow from stb_image 
+
+
 /* stb_image - v2.25 - public domain image loader - http://nothings.org/stb
                                   no warranty implied; use at your own risk
 
