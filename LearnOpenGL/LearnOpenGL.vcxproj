@@ -74,7 +74,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\lules\source\repos\glfw-3.3.2.bin.WIN64\include\GLFW;C:\Users\lules\source\repos\glfw-3.3.2.bin.WIN64\include\glad;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\lules\source\repos\glfw-3.3.2.bin.WIN64\include\glm;C:\Users\lules\source\repos\glfw-3.3.2.bin.WIN64\include\GLFW;C:\Users\lules\source\repos\glfw-3.3.2.bin.WIN64\include\glad;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\lules\source\repos\glfw-3.3.2.bin.WIN64\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
